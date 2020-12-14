@@ -16,6 +16,8 @@
     "no-param-reassign": "off",
     "max-len": "off",
     "arrow-parens": "off",
-    "import/prefer-default-export": "off"
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "vue/no-unused-components": "warn"
   }
 }
