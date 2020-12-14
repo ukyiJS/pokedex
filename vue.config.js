@@ -19,4 +19,11 @@ module.exports = {
       .loader('graphql-tag/loader')
       .end();
   },
+  pluginOptions: {
+    quasar: {
+      importStrategy: 'kebab',
+      rtlSupport: true,
+    },
+  },
+  transpileDependencies: ['quasar'],
 };
