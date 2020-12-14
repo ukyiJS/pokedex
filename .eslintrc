@@ -12,6 +12,7 @@
     "no-debugger": "warn",
     "no-unused-vars": "warn",
     "no-trailing-spaces": "warn",
+    "no-return-assign": "off",
     "arrow-parens": "off",
     "import/prefer-default-export": "off"
   }
