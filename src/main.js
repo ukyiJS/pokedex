@@ -1,5 +1,5 @@
+import { DefaultApolloClient } from '@vue/apollo-composable';
 import VueCompositionAPI, { provide } from '@vue/composition-api';
-import ApolloClient from 'apollo-client';
 import Vue from 'vue';
 import App from './App.vue';
 import { apolloClient } from './config';
@@ -13,6 +13,6 @@ Vue.use(VueCompositionAPI);
 new Vue({
   router,
   store,
-  setup: () => provide(ApolloClient, { default: apolloClient }),
+  setup: () => provide(DefaultApolloClient, apolloClient),
   render: h => h(App),
 }).$mount('#app');
