@@ -14,6 +14,7 @@
     "no-trailing-spaces": "warn",
     "no-return-assign": "off",
     "no-param-reassign": "off",
+    "no-shadow": "off",
     "max-len": "off",
     "arrow-parens": "off",
     "import/extensions": "off",
