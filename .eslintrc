@@ -19,6 +19,7 @@
     "arrow-parens": "off",
     "import/extensions": "off",
     "import/prefer-default-export": "off",
-    "vue/no-unused-components": "warn"
+    "vue/no-unused-components": "warn",
+    "object-curly-newline": "off"
   }
 }
