@@ -1,7 +1,7 @@
 <template>
   <div class="q-col-gutter-md row justify-center">
-    <div class="col-md-8 col-sm-10 col-xs-12">
-      <q-input rounded outlined autofocus clear-icon="" @keyup.stop="onSearch" :value="keyword">
+    <div class="col-md-4 col-sm-6 col-xs-8">
+      <q-input rounded outlined autofocus @keyup.stop="onSearch" :value="keyword">
         <template v-slot:prepend>
           <q-icon name="search" />
         </template>
