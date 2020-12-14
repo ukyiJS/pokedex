@@ -13,6 +13,7 @@
     "no-unused-vars": "warn",
     "no-trailing-spaces": "warn",
     "no-return-assign": "off",
+    "no-param-reassign": "off",
     "arrow-parens": "off",
     "import/prefer-default-export": "off"
   }
