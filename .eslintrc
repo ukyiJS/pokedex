@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": ["plugin:vue/essential", "@vue/airbnb"],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "no-unused-vars": "warn",
+    "no-trailing-spaces": "warn",
+    "arrow-parens": "off",
+    "import/prefer-default-export": "off"
+  }
+}
