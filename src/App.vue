@@ -1,28 +1,15 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar class="bg-grey-3 text-dark">
-        <q-img :src="require('img/main-logo.png')" style="width: 5rem" basic />
-        <q-toolbar-title>Pokedex</q-toolbar-title>
-        <q-btn flat round dense icon="whatshot" />
-      </q-toolbar>
-    </q-header>
-
-    <q-page-container>
-      <q-page padding>
-        <auto-complete />
-      </q-page>
-      <q-page-scroller position="bottom-right" :scroll-offset="150" :offset="[18, 18]">
-        <q-btn fab icon="keyboard_arrow_up" color="dark" />
-      </q-page-scroller>
-    </q-page-container>
+    <navigation-bar />
+    <router-view />
   </q-layout>
 </template>
 
 <script>
-import AutoComplete from './components/AutoComplete.vue';
+import NavigationBar from './views/layout/NavigationBar.vue';
 
 export default {
+  components: { NavigationBar },
   name: 'LayoutDefault',
   meta: {
     title: 'Pokedex',
@@ -33,7 +20,6 @@ export default {
       equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' },
     },
   },
-  components: { AutoComplete },
 };
 </script>
 
