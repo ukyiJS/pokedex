@@ -3,6 +3,7 @@ import ApolloClient from 'apollo-client';
 import Vue from 'vue';
 import App from './App.vue';
 import { apolloClient } from './config';
+import './quasar';
 import router from './router';
 import store from './store';
 
